@@ -37,3 +37,8 @@ untuk menandakan release points     -> Ver1.0/Ver4.2.425
 
     git push origin v1.4            ->push specific tag
     git push origin --tags          ->push all tags
+
+-- Git Branches --
+    git checkout -b [branchname]    -
+    git push origin [branchname]    -
+    git branch -a                   -
