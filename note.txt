@@ -15,7 +15,7 @@ Git Pull
     git pull origin master
 
 Git Clone
-    git clone [link respitori]
+    git clone [link repositori]
 
 Git Reset (HARD RESET)
     git reset --hard HEAD       -> untuk mengecek kepala/HEAD
@@ -26,3 +26,14 @@ Git Reset (SOFT RESET) - lebih aman
     git reset --soft HEAD       -> mengecek kepala
     git reset --soft HEAD~1     -> reset 1 langkah sebelum kepala
     git reset --soft HEAD~2     -> reset 2 langkah sebelum kepala
+
+.gitignore
+untuk meng-ignore file agar tidak ter-push ke dalam repositori github
+
+Git Tagging
+untuk menandakan release points     -> Ver1.0/Ver4.2.425
+    git tag -a [tagname] -m '[message]'
+    git tag -a v1.4 -m 'version 1.4'
+
+    git push origin v1.4            ->push specific tag
+    git push origin --tags          ->push all tags
