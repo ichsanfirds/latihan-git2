@@ -1,36 +1,36 @@
-Git Add
+-- Git Add --
     git add [filename]  -> menambahkan 1 file
     git add .           -> menambahkan semua file
 
-Git Commit
+-- Git Commit --
     git commit -m 'Pesan Commit'
 
-Git Push
+-- Git Push --
     git push [remote] [branch]
     git push origin master
     git push origin main -f     -> Untuk force push
 
-Git Pull
+-- Git Pull --
     git pull [remote] [branch]
     git pull origin master
 
-Git Clone
+-- Git Clone --
     git clone [link repositori]
 
-Git Reset (HARD RESET)
+-- Git Reset (HARD RESET) --
     git reset --hard HEAD       -> untuk mengecek kepala/HEAD
     git reset --hard HEAD~1     -> reset 1 langkah sebelum kepala
     git reset --hard HEAD~2     -> reset 2 langkah sebelum kepala
 
-Git Reset (SOFT RESET) - lebih aman
+-- Git Reset (SOFT RESET) - lebih aman --
     git reset --soft HEAD       -> mengecek kepala
     git reset --soft HEAD~1     -> reset 1 langkah sebelum kepala
     git reset --soft HEAD~2     -> reset 2 langkah sebelum kepala
 
-.gitignore
+-- .gitignore --
 untuk meng-ignore file agar tidak ter-push ke dalam repositori github
 
-Git Tagging
+-- Git Tagging --
 untuk menandakan release points     -> Ver1.0/Ver4.2.425
     git tag -a [tagname] -m '[message]'
     git tag -a v1.4 -m 'version 1.4'
